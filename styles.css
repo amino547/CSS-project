@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: black;
+    border-radius: 30px;
+    border-color: red;
+}
+
+.main-header {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 20px 0;
+}
+
+.menu-section h2 {
+    border-bottom: 2px solid orangered;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.menu-section ul {
+    list-style-type: none;
+}
+
+.menu-section ul li {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-left: 5px solid orangered;
+    transition: transform 0.3s ease;
+}
+
+.menu-section ul li:hover {
+    transform: scale(1.05);
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
